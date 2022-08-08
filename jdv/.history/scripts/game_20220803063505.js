@@ -1,0 +1,3 @@
+// INICIAR VARIÁVEIS
+
+let board

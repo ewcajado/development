@@ -1,0 +1,2 @@
+// iniciar variáveis
+~let board 

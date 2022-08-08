@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(135, 123, 195, 0.532);
+    border: 1px solid rgb(207, 207, 228);
+}

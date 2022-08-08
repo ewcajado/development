@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(135, 123, 195, 0.532);
+    border: 1px solid rgb(80, 80, 222);
+    display: inline-block;
+}
+
+.reset{
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgba(135, 123, 195, 0.532);
+    border: 1px solid rgb(80, 80, 222);
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}

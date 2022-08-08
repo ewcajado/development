@@ -1,0 +1,23 @@
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(165, 42, 42, 0.572);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1{
+
+    text-align: center;
+    color: rgb(42, 31, 31);
+    font-weight: 400;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
