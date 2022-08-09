@@ -1,7 +1,6 @@
 const FRONT = "card_front"
 const BACK = "card_back"
-const CARD = "card"
-const ICON = "icon"
+const CARD = 'card'
 
 let techs = ['bootstrap', 
     'css',
@@ -52,17 +51,7 @@ function createCardContent(card, cardElement){
 function createCardFace(face, card, element){
 
     let cardElementFace = document.createElement('div');
-    cardElementFace.classList.add(face);
-
-    if(face === FRONT){
-        let iconElement = document.createElement('img');
-        iconElement.classList.add(ICON);
-        iconElement.src = "./assets/images/" + card.icon + ".png";
-        cardElementFace.appendChild(iconElement);
-    } else {
-        cardElementFace.innerHTML = "&lt/&gt";
-    }
-    element.appendChild(cardElementFace);
+    cardElementFace = 
 }
     
 function shuffleCards(cards){
@@ -74,7 +63,7 @@ function shuffleCards(cards){
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex--;
 
-        [cards[randomIndex], cards[currentIndex]] = [cards[currentIndex], cards[randomIndex]]
+        [cards[randomIndex], cards[randomIndex]] = [cards[currentIndex], cards[randomIndex]]
     }
 
 }
@@ -112,10 +101,6 @@ function createIdWithTech(tech){
 }
 
 function flipCard(){
-
-    this.classList.add(
-        "flip"
-    )
 
 }
 

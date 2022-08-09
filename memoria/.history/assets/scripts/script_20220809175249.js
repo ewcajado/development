@@ -74,7 +74,7 @@ function shuffleCards(cards){
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex--;
 
-        [cards[randomIndex], cards[currentIndex]] = [cards[currentIndex], cards[randomIndex]]
+        [cards[randomIndex], cards[randomIndex]] = [cards[currentIndex], cards[randomIndex]]
     }
 
 }
@@ -114,7 +114,7 @@ function createIdWithTech(tech){
 function flipCard(){
 
     this.classList.add(
-        "flip"
+        flip
     )
 
 }
