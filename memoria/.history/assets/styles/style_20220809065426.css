@@ -1,0 +1,19 @@
+body{
+ font-family: 'Poppins', 'M PLUS 1p', sans-serif;
+}
+
+.card{
+
+}
+
+.card_back, .card_front{
+ width: ;
+}
+
+.card_front{
+ background-color: #101c2c;
+}
+
+.card_back{
+ background-color: #05c3ff;
+}
