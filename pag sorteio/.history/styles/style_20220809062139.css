@@ -24,7 +24,7 @@ h1{
     cursor: pointer;
     color: #fff;
     transition: 0.5s;
-    outline: 0;
+    outline: ;
 }
 
 .button:hover{
