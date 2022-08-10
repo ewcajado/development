@@ -13,7 +13,7 @@ function startGame(){
 
 function initializeCards(cards) {
     let gameBoard =document.getElementById("gameBoard");
-    gameBoard.innerHTML = '';
+
     for (let card of game.cards){
         let cardElement = document.createElement('div');
         cardElement.id = card.id;
@@ -81,7 +81,6 @@ function flipCard() {
 }
 
 function restart(){
-    game.clearCards();
     startGame();
     let gameOverLayer = document.getElementById("gameOver");
     gameOverLayer.style.display = "none";

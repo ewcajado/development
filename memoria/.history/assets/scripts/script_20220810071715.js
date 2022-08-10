@@ -13,7 +13,7 @@ function startGame(){
 
 function initializeCards(cards) {
     let gameBoard =document.getElementById("gameBoard");
-    gameBoard.innerHTML = '';
+    gameBoard.innerHTML
     for (let card of game.cards){
         let cardElement = document.createElement('div');
         cardElement.id = card.id;
