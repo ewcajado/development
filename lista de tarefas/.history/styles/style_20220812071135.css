@@ -7,9 +7,13 @@ body {
 }
 
 h1{
-    text-align: center;
+    margin: 0 auto;
+    width: 50px;
+    he
     
-
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 15px;
 }
 
 .container {

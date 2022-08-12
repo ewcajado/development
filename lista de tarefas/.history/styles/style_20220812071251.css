@@ -8,8 +8,11 @@ body {
 
 h1{
     text-align: center;
-    
-
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 15px;
 }
 
 .container {
