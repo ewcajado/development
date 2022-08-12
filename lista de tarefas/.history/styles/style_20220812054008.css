@@ -1,0 +1,162 @@
+body {
+    background: #000;
+    color: #fff;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #2b2a2a;
+    padding: 55px;
+    border-radius: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.top input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    outline: none;
+    font-size: 13px;
+    background: #191818;
+    color: #fff;
+}
+
+.top button {
+    width: 50px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    background: #191818;
+    color: #fff;
+    outline: none;
+}
+
+.top button:hover{
+    background: #1f1e1e;
+    cursor: pointer;
+}
+
+#tasksList{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+#tasksList li {
+    padding: 20px;
+    background: #191818;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.actionButton {
+    border-radius: 20px;
+    border: 1px solid #191818;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: #fff;
+    outline: none;
+}
+
+.actionButton:hover{
+    background: #3c3a3a
+}
+
+#windowEdit{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #191818;
+    border: 1px solid #2f2e2e;
+    width: 415px;
+    border-radius: 12px;
+    z-index: 200;
+    /*display: none;*/
+}
+
+#windowEdit.open{
+    display: block !important;
+
+}
+
+#windowBackgroundEdit {
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    z-index: 100;
+    right: 0;
+    display: none;
+
+}
+
+#windowBackgroundEdit.open {
+    display: block !important;
+
+}
+
+#
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.frm-line {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.frm-line label {
+    margin-bottom: 7px;
+}
+
+.frm-line input {
+    padding: 15px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid #191818;
+    font-size: 13px;
+    background: #2d2c2c;
+    color: #fff;
+}
+
+.frm-line button {
+    background: #2d2c2c;
+    border: 1px solid #191818;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: #ccc;
+    cursor: pointer;
+    height: 50px;
+    font-size: 13px;
+    outline: none;
+}
+
+.frm-line button:hover{
+    background: #3c3a3a;
+}
