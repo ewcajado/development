@@ -1,0 +1,12 @@
+
+@keyframes changeColor {
+
+ from { background-color: red;
+ to
+}
+
+.box{
+ width: 200px;
+ height: 200px;
+ border-style: solid;
+}
