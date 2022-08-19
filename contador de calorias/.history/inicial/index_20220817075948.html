@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link src rel="stylesheet">
+ <title>contador de calorias</title>
+</head>
+<body>
+ <div class="container">
+  <header>
+   <img src="./assets/images/logo.svg" alt="getkcal">
+  </header>
+
+   <div class="content">
+    <form id="form">
+     <div class="form-group">
+      <label for="gender">seu sexo</label>
+      <select id="gender">
+       <option value="male">Male</option>
+       <option value="female">Female</option>
+      </select>
+     </div>
+     <div class="form-group">
+      <label for="age">Age</label>
+     </div>
+     <div class="form-group">
+      <label for="weight">Seu peso</label>
+      <input type="number" id="weight" />
+     </div>
+     <div class="form-group">
+      <label for ="height">Height</label>
+      <input type="number" id="height" />
+     </div>
+     <div class="form-group">
+      <label for="activity_level">Activity Level</label>
+      <select id="activity_level">
+       <option value="1.2">Sedentário</option>
+       <option value="1.375">Pouca atividade</option>
+       <option value="1.55">Atividade moderada</option>
+       <option value="1.725">Atividade intensa</option>
+       <option value="1.9">Atividade muito intensa</option>
+      </select>
+     </div>
+
+     <div class="form-group">
+      <button type="submit">calcular</button>
+     </div>
+    </form>
+    <div class="result-container">
+      <h2>aqui está o resultado:</h2>
+
+      <div class="result-container">
+        <ul>
+          <li>
+            o seu metabolismo basal é de <strong>1606 calorias</strong>.
+          </li>
+          <li>
+            para manter o peso você precisa consumir em média <strong>1928 calorias</strong>.
+          </li>
+          <li>
+            para perder peso você precisa consumir em média <strong>1638 calorias</strong>.
+          </li>
+          <li>
+            para ganhar peso você precisa consumir em média <strong>2217 calorias</strong>.
+          </li>
+        </ul>
+      </div>
+    </div>
+   </div>
+ </div>
+</body>
+</html>
