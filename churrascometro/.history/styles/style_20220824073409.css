@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+
+.cartoon {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 40;
+}
+.container{
+    font-family: 'M PLUS 1p', sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(133, 73, 73, 0.72);
+    padding: 60px;
+    border-radius: 15px;
+
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px ;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color:rgb(158, 92, 44);
+    border-radius: 05px;
+
+}
