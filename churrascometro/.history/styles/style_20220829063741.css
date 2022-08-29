@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.798);
+    color: white;
+}
+
+.container 

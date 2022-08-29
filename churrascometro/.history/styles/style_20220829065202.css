@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    background-color: rgba(0, 0, 0, 0.798);
+    color: white;
+}
+
+.container {
+    font-family: 'M PLUS 1p', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.300);
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: rgb(84, 77, 77);
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+
+}
+
+button {}
