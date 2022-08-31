@@ -8,9 +8,7 @@ body{
  font-family: 'Roboto', sans-serif;
  display: flex;
  justify-content: center;
- align-items: center;
- height: 100vh;
- background-color: rgba(121, 17, 17, 0.813);
+ align
 }
 
 .card, .card2{
@@ -71,8 +69,6 @@ body{
 }
 
 #gameBoard {
+ background-color:rgba(121, 17, 17, 0.301);
  max-width: 700px;
- display: grid;
- grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
- gap: 15px;
 }
