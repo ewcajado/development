@@ -1,0 +1,25 @@
+body{
+ font-family: 'Roboto', sans-serif;
+}
+
+.card, .card2{
+ width: 160px;
+ height: 250px;
+}
+
+.card_back, .card_front {
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ border-radius: 3px;
+ box-shadow: 10px 10px 10px rgba(199, 33, 33, 0.701);
+}
+
+.card_front {
+ background-color: ##CDC6BF;
+}
+
+.card_back{
+ background-color: ##CDC6BF;
+}
